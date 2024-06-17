@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace DefaultNamespace.UI
+namespace UI.UIElements
 {
     public class ProgressBar : MonoBehaviour
     {

@@ -106,3 +106,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0508129bd4f457fbd6cd68b19091974, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  loadableScenesContainer: {fileID: 11400000, guid: 6b1d26f9a6dd6ef419502ef0436d2ec2, type: 2}

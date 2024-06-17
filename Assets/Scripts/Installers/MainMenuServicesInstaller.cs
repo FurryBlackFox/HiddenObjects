@@ -1,10 +1,11 @@
 ﻿using UI;
+using UI.LevelSelector;
 using UnityEngine;
 using Zenject;
 
 namespace Installers
 {
-    public class MainMenuFactoriesInstaller : MonoInstaller
+    public class MainMenuServicesInstaller : MonoInstaller
     {
         [SerializeField] private LevelPreview levelPreviewPrefab;
         
