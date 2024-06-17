@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using Zenject;
 
-namespace Ingame
+namespace Ingame.ClickableObject
 {
     public class ClickableObject : MonoBehaviour
     {

@@ -65,8 +65,7 @@ namespace Services
             
             try
             {
-                sprite = await _serverDataProvider.GetSpriteFromUrl(
-                    "https://cdn.britannica.com/70/234870-050-D4D024BB/Orange-colored-cat-yawns-displaying.jpg");
+                sprite = await _serverDataProvider.GetSpriteFromUrl(levelData.ExternalLevelModel.ImageUrl);
 
             }
             catch (Exception e)

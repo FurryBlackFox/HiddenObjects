@@ -1,19 +1,20 @@
 ﻿using Cysharp.Threading.Tasks;
+using Ingame.ClickableObject;
 using Services;
 using UnityEngine;
 using Zenject;
 
-namespace Ingame
+namespace Ingame.Builder
 {
     public class LevelBuilderService : MonoBehaviour
     {
         private Camera _mainCamera;
         private LevelDataProvider _levelDataProvider;
         private LevelProgressService _levelProgressService;
-        private ClickableObject.Factory _clickableObjectFactory;
+        private ClickableObject.ClickableObject.Factory _clickableObjectFactory;
 
         [Inject]
-        public void Construct(Camera mainCamera, ClickableObject.Factory clickableObjectFactory, 
+        public void Construct(Camera mainCamera, ClickableObject.ClickableObject.Factory clickableObjectFactory, 
             LevelDataProvider levelDataProvider, LevelProgressService levelProgressService)
         {
             _mainCamera = mainCamera;

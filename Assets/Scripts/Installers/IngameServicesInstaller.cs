@@ -1,4 +1,5 @@
 ﻿using Ingame;
+using Ingame.ClickableObject;
 using UnityEngine;
 using Zenject;
 

@@ -38,7 +38,7 @@ namespace Ingame
             if(!result)
                 return;
 
-            var clickableObject = result.transform.GetComponentInChildren<ClickableObject>();
+            var clickableObject = result.transform.GetComponentInChildren<ClickableObject.ClickableObject>();
             
             if(clickableObject == null)
                 return;

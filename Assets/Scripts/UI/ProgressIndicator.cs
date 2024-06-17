@@ -1,5 +1,4 @@
-﻿using System;
-using Ingame;
+﻿using Ingame;
 using TMPro;
 using UnityEngine;
 using Zenject;

@@ -1,6 +1,4 @@
-﻿using Levels;
-
-namespace Services
+﻿namespace Levels
 {
     public class LevelData
     {

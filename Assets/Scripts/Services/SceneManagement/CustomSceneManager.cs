@@ -1,10 +1,10 @@
 ﻿using Cysharp.Threading.Tasks;
-using Ingame;
+using Ingame.Builder;
 using ScriptableObjects.SceneManagement;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace Services
+namespace Services.SceneManagement
 {
     public class CustomSceneManager
     {
